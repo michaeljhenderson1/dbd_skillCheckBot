@@ -37,21 +37,19 @@ As a result, irrelevant pixels are far less likely to interfere with the problem
 
 <div style="text-align: center">
     <img style="vertical-align:middle" src="./skill_check/resources/Current.png" alt="skill check">
-    <span style="vertical-align:middle;font-size: 600%">-</span>
     <img style="vertical-align:middle" src="./skill_check/resources/ring.png" alt="filter">
-    <span style="vertical-align:middle;font-size: 500%">=</span>
     <img style="vertical-align:middle" src="./skill_check/resources/filtered.png" alt="filtered image">
 </div>
 
-Afterwards, the image is filtered for relevant pixels based on rgb values.
+The filtering above is resolved by subtarcting the filter from the original image. Afterwards, the image is filtered for relevant pixels based on rgb values.
 
 <div style="text-align: center">
     <img style="vertical-align:middle" src="./skill_check/resources/white.png" alt="white">
     <img style="vertical-align:middle" src="./skill_check/resources/red.png" alt="red">
     <br>
-    Images are filtered separately according to red tick & the skill check portions.
 </div>
 
+Images are filtered separately according to red tick & the skill check portions.
 From each of these images, a median coordinate is selected. The previous math is then applied to find the degrees of each element on the unit circle.
 
 # Image capture & filter setup
