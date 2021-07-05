@@ -30,6 +30,8 @@ By determining a relevant coordinate, a right triangle can be formed between the
 Given that $tan(\theta) = opp/adj$, $\theta$ can be found by solving for $\theta = arctan(opp/adj)$.
 Using trigonometry, the coordinates can be converted to degrees on a unit circle. The difference, in degrees between the skill check and red tick, is used to determine the wait time before completing a skill check.
 
+![tangent](http://www.sciweavers.org/upload/Tex2Img_1625521229/eqn.png)
+
 ## Image Detection
 
 The image is initially filtered such that only pixels in the skill check remain. 
