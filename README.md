@@ -27,10 +27,8 @@ The problem of a skill check is greatly simplified by breaking it down to a unit
 </div>
 
 By determining a relevant coordinate, a right triangle can be formed between the center and chosen coordinate.
-Given that $tan(\theta) = opp/adj$, $\theta$ can be found by solving for $\theta = arctan(opp/adj)$.
+Given that ![tangent](http://www.sciweavers.org/upload/Tex2Img_1625521229/eqn.png), ![theta](http://www.sciweavers.org/upload/Tex2Img_1625521459/eqn.png) can be found by solving for ![arctan](http://www.sciweavers.org/upload/Tex2Img_1625521411/eqn.png).
 Using trigonometry, the coordinates can be converted to degrees on a unit circle. The difference, in degrees between the skill check and red tick, is used to determine the wait time before completing a skill check.
-
-![tangent](http://www.sciweavers.org/upload/Tex2Img_1625521229/eqn.png)
 
 ## Image Detection
 
